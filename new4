@@ -1,0 +1,10 @@
+bagalar = [30]
+while True:
+     x = input()
+     if x == "stop":
+         break
+     else:
+         y = y + int(x)
+         bagalar.append(int(x))
+         print("arm = ",y)
+         print(bagalar)
